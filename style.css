@@ -1,0 +1,27 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.hero {
+  background-color: #fce4ec;
+  color: #880e4f;
+}
+
+h2 {
+  color: #f06292;
+}
+
+.project-card img {
+  height: 180px;
+  object-fit: cover;
+}
+
+a {
+  color: #f06292;
+}
+
+a:hover {
+  color: #ad1457;
+}
