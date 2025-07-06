@@ -4,13 +4,16 @@ body {
   color: #333;
 }
 
-.hero {
-  background-color: #fce4ec;
-  color: #880e4f;
+.section-lightest-pink {
+  background-color: #fce4ec; 
 }
 
-h2 {
-  color: #f06292;
+.section-light-pink {
+  background-color: #ffd0e0; 
+}
+
+h2, h1{ 
+  color: #9b4b67;
 }
 
 .project-card img {
@@ -24,6 +27,20 @@ a {
 
 a:hover {
   color: #ad1457;
+}
+
+.category-card {
+  border-radius: 1rem;
+  background-color: #fce4ec;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow: hidden;
+}
+.category-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(240, 98, 146, 0.15);
+}
+.text-pink {
+  color: #f06292;
 }
 
 .project-card {
